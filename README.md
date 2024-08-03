@@ -8,6 +8,8 @@ However, this can be a time consuming process as some parks have over 5 campgrou
 frames when switching inbetween different websites.
 
 As someone who loves to explore the outdoors, I started making this application because it was something that I could use!
+![IMG_1035](https://github.com/user-attachments/assets/c4ae2ba9-cced-46fb-8397-fe90b1c519af)
+![IMG_8921](https://github.com/user-attachments/assets/98d4f613-dfa1-4bde-93b8-9ad23e752e93)
 
 ### How to Use it
 Please give it about 15 seconds to load the parks. Then, you can select, press submit, and in the console, the available days will be displayed for the current month.
