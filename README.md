@@ -8,6 +8,8 @@ However, this can be a time consuming process as some parks have over 5 campgrou
 frames when switching inbetween different websites.
 
 As someone who loves to explore the outdoors, I started making this application because it was something that I could use!
+
+
 <img src="https://github.com/user-attachments/assets/c4ae2ba9-cced-46fb-8397-fe90b1c519af" alt="drawing" width="45%"/>
 <img src="https://github.com/user-attachments/assets/6f6439bb-b5aa-4c79-b64f-63c8b59db449" alt="drawing" width="45%"/>
 
