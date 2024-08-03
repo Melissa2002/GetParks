@@ -9,8 +9,8 @@ frames when switching inbetween different websites.
 
 As someone who loves to explore the outdoors, I started making this application because it was something that I could use!
 <img src="https://github.com/user-attachments/assets/c4ae2ba9-cced-46fb-8397-fe90b1c519af" alt="drawing" width="45%"/>
-![IMG_2262 (1)](https://github.com/user-attachments/assets/70b11cdd-fb26-40b8-b0c5-d1cb93592e02)
-![IMG_8921 (1)](https://github.com/user-attachments/assets/6f6439bb-b5aa-4c79-b64f-63c8b59db449)
+<img src="https://github.com/user-attachments/assets/70b11cdd-fb26-40b8-b0c5-d1cb93592e02" alt="drawing" width="45%"/>
+<img src="https://github.com/user-attachments/assets/6f6439bb-b5aa-4c79-b64f-63c8b59db449" alt="drawing" width="45%"/>
 
 
 ### How to Use it
