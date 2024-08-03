@@ -33,9 +33,10 @@ Most of the work getting the RESTful APIs is completed. The website has some bas
 
 ### Future Plans
 1. Hiding the API Key - it can currently be seen publically which just means people could technically use it to make calls to NPS from my account. This is not a big security concern for me as that is all it is tied to, but it is bad practice to have it visible. I will likely utilize Github's secret manager and configure a yaml file in the upcoming weeks.
-2. Displaying available dates on the page instead of the console
-3. Adding functionality to change the date range: right now it only looks at current month
-4. Missing campgrounds: their API misses several popular campsite including 3 from Yosemite, so I will manually have to add them in
-5. Prioritizing same campsite's URLs; booking consecutive days when possible
-6. Code styling
-7. Css Styling
+2. Updating the park upon a new selection.
+3. Displaying available dates on the page instead of the console
+4. Adding functionality to change the date range: right now it only looks at current month
+5. Missing campgrounds: their API misses several popular campsite including 3 from Yosemite, so I will manually have to add them in
+6. Prioritizing same campsite's URLs; booking consecutive days when possible
+7. Code styling
+8. Css Styling
