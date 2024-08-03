@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ <html> 
+    <head> 
+        <script src="parks.jsx"></script> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
+
+    </head>
+    <body> 
+        <div>
+            <label for="parks" >Choose a Park:</label>
+            <br>
+            <select name="park" id="select-park" style="overflow:scroll;"></select>
+    
+            <h3>Pick a Campsite</h3>
+        </div>
+        <div>
+            <h3>Pick Time Frame: </h3>
+            <h4>Start Date:</h4>
+            <input type="date" id="min-range" name="trip-start" value="2018-07-22"/>
+            <h4>End Date:</h4>
+            <input type="date" id="max-range" name="trip-start" value="2018-07-22"/>
+            <h4 id="submit-button">Submit</h4>
+        </div>
+        <div id="show-dates" hidden="true">
+            <h3>Available Dates:</h3>
+            <p >For this time frame, the following dates are available:</p>
+            <ol id="list">
+
+            </ol>
+        </div>
+        <div id="no-dates" hidden="true">
+            <h3>Sorry, no dates are availble in this time frame</h3>
+        </div>
+        <input type="file" id="fileInput" hidden="true"/>   
+
+    </body>
+</html>
