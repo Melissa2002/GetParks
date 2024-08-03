@@ -56,8 +56,8 @@ function getCamps(parkCode){
 async function getParks(){
     loadToday();
 
-    const data = await fetch('key.txt');
-    const apiKey = await data.text();
+    // const data = await fetch('key.txt');
+    // const apiKey = await data.text();
 
     let request = new XMLHttpRequest();
     request.open("GET", "https://developer.nps.gov/api/v1/campgrounds?limit=502")
