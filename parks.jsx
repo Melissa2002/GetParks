@@ -61,7 +61,7 @@ async function getParks(){
 
     let request = new XMLHttpRequest();
     request.open("GET", "https://developer.nps.gov/api/v1/campgrounds?limit=502")
-    request.setRequestHeader('X-Api-Key', apiKey);
+    request.setRequestHeader('X-Api-Key', "Al5Q4vgNLW5trEeOjWPYGHXEMeuxzS1V1WIM0qTU");
     request.send();
     request.onload = () => {
         if (request.status === 200) {
@@ -156,7 +156,7 @@ function getAvailability(){
 }
 
 // SubmitDates finds the available dates within the range when the submit button is clicked
-function SubmitDates() {
+async function SubmitDates() {
     min = new Date(document.getElementById("min-range").value + "T00:00:00.000-07:00");
     max = new Date(document.getElementById("max-range").value + "T00:00:00.000-07:00");
     if (min >= max) {
